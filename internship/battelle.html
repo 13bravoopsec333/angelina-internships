@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Battelle — Internship / Co-op Program</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --bg: #0a0e1a; --card: #111827; --border: #1e293b; --text: #e2e8f0; --dim: #64748b; --accent: #38bdf8; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+.back { display: inline-block; padding: 1rem 2rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
+.back:hover { background: rgba(56,189,248,0.05); }
+.detail-header { padding: 2rem; border-bottom: 1px solid var(--border); }
+.detail-header h1 { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+.detail-header .role { font-size: 1rem; color: var(--dim); margin-bottom: 1rem; }
+.detail-meta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.detail-meta .tag { padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+.detail-scores { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+.detail-score-ring { width: 64px; height: 64px; border-radius: 50%; border: 4px solid; display: flex; align-items: center; justify-content: center; }
+.detail-score-ring .num { font-size: 1.2rem; font-weight: 800; }
+.detail-score-bars { display: grid; gap: 0.4rem; min-width: 200px; }
+.detail-score-bars .bar { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.detail-score-bars .bar-fill { height: 8px; border-radius: 4px; }
+.detail-score-bars .bar-val { color: var(--dim); }
+.detail-body { max-width: 800px; margin: 0 auto; padding: 2rem; }
+.section { margin-bottom: 2rem; }
+.section h3 { font-size: 1.1rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+.section p, .section ul { font-size: 0.9rem; line-height: 1.7; color: #cbd5e1; }
+.section ul { padding-left: 1.5rem; }
+.section li { margin-bottom: 0.4rem; }
+.section a { color: var(--accent); text-decoration: none; }
+.section a:hover { text-decoration: underline; }
+.apply-btn { display: inline-block; background: #2563eb; color: #fff; text-decoration: none; padding: 0.8rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; margin-top: 1rem; transition: background 0.15s; }
+.apply-btn:hover { background: #1d4ed8; }
+.detail-deadline { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #fbbf24; }
+.detail-notes { background: rgba(100,116,139,0.1); border: 1px solid rgba(100,116,139,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.85rem; color: #94a3b8; font-style: italic; }
+.detail-gpa { background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #38bdf8; }
+</style>
+</head>
+<body>
+<a href="../index.html" class="back">← Back to all internships</a>
+<div class="detail-header">
+  <h1>Battelle</h1>
+  <div class="role">Internship / Co-op Program</div>
+  <div class="detail-meta">
+    <span class="tag" style="background:#8b5cf6">Niche / Specialty Materials</span>
+    <span class="tag" style="background:#ef444422;color:#ef4444">Essay + Interview</span>
+    <span class="tag" style="background:rgba(16,185,129,0.15);color:#34d399">#39</span>
+  </div>
+  <div class="detail-scores">
+    <div class="detail-score-ring" style="border-color:#3b82f6"><span class="num">57</span></div>
+    <div class="detail-score-bars">
+      <div class="bar">⭐ Prestige: <div class="bar-fill" style="width:68%;background:#a78bfa"></div><span class="bar-val">17/25</span></div>
+      <div class="bar">💰 Pay: <div class="bar-fill" style="width:48%;background:#34d399"></div><span class="bar-val">12/25</span></div>
+      <div class="bar">📍 Location: <div class="bar-fill" style="width:40%;background:#38bdf8"></div><span class="bar-val">10/25</span></div>
+      <div class="bar">🔬 MSE Fit: <div class="bar-fill" style="width:72%;background:#fbbf24"></div><span class="bar-val">18/25</span></div>
+    </div>
+    <div style="text-align:center"><div style="font-size:1.5rem;font-weight:800;color:#3b82f6">54%</div><div style="font-size:0.75rem;color:var(--dim)">acceptance</div></div>
+  </div>
+</div>
+<div class="detail-body">
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+    <span>📍 Columbus, OH</span>
+    <span>💰 Paid</span>
+  </div>
+  
+  <div class="detail-notes">💡 Page loaded with internship/co-op section. &#x27;Students at all stages&#x27; — broad eligibility. Columbus OH is a large metro (~2M). Battelle operates national labs — materials characterization and R&amp;D. Excellent MSE fit. Strong program.</div>
+  
+  <a href="https://jobs.battelle.org/us/en/internships" target="_blank" rel="noopener" class="apply-btn">Apply Now →</a>
+  <div class="section"><h3>📝 Description</h3><p>World&#x27;s largest independent R&amp;D organization. Materials research, defense technologies, energy, and health. Interns work alongside top experts on cutting-edge research. Less known than national labs but operates similar work. Great for materials characterization and advanced R&amp;D.</p></div>
+  <div class="section"><h3>✅ Eligibility</h3><p>Students at all stages</p></div>
+  <div class="section"><h3>📋 Application Process</h3><p>Apply online at jobs.battelle.org. Upload resume and complete application. If applying for programming roles, may include HackerRank challenge. Recruiter screen → phone interviews (1-2 rounds) → in-person interview (technical) → offer. Average hiring time: 32 days. Rolling applications — no fixed deadlines. Connect on Handshake or attend university recruiting events.</p></div>
+  <div class="section"><h3>🚀 Best Way to Apply</h3><p>Apply online at jobs.battelle.org/internships-and-co-ops/ or through Handshake. Attend university recruiting events if Battelle visits UF. Tailor resume to specific internship posting — use keywords from job description. Battelle operates INL and other national labs — applying to Battelle is similar to applying to national labs. For materials engineering, target advanced materials, biology, chemistry, or data science divisions. Highlight Ansys Granta, FTIR, NMR, Solidworks.</p></div>
+  <div class="section"><h3>📄 Resume Tips</h3><p>Battelle recruiters explicitly advise: &#x27;Use keywords from the job posting in your resume.&#x27; Match your skills to the required/preferred qualifications in the posting. Highlight research experience from Sumerlin group — Battelle values &#x27;engaged, critical thinkers.&#x27; Include Python, MATLAB, or other programming skills. Mention PPAP/GD&amp;T from HNI for quality/manufacturing roles. Battelle looks for problem-solving, communication, collaboration, technology, and leadership.</p></div>
+  <div class="section"><h3>🎯 Maximize Your Chances</h3><p>Battelle is the world&#x27;s largest independent R&amp;D organization — many internship opportunities across diverse fields. The company reinvests profits for societal benefit — align your application with their mission. Battelle operates multiple national labs (INL, PNNL, ORNL, etc.) — an internship at Battelle HQ can lead to national lab opportunities. The company values &#x27;diverse teams&#x27; — emphasize any multicultural or interdisciplinary experience. Apply to multiple postings to increase chances.</p></div>
+  <div class="section"><h3>🎤 Interview Format</h3><p>2-3 rounds: recruiter screen → phone/video interviews (behavioral) → in-person interview (technical). Casual and friendly atmosphere. Focus on work ethic, personality, and technical capabilities. Be ready to discuss specific projects and examples. Questions about teamwork, problem-solving, and interest in Battelle&#x27;s mission. Technical questions for engineering roles.</p></div>
+  <div class="section"><h3>🏆 Success Stories</h3><p>Glassdoor: 189 interview questions, 183 reviews. Reddit: Users report behavioral interviews are straightforward, in-person interviews are technical. Intern testimonials: &#x27;Amazing summer, incredible support from everyone at Battelle,&#x27; &#x27;Great taste of Battelle with high interest of coming back,&#x27; &#x27;I&#x27;ve met the most people this summer.&#x27; Process: 2 phone interviews (behavioral) → in-person technical interview. 32-day average hiring time.</p></div>
+  <div class="section"><h3>📝 Supplemental Questions</h3><p>No supplemental questions reported. Resume-based application with optional HackerRank challenge for programming roles. Job posting keywords should be reflected in resume.</p></div>
+  <div class="section"><h3>🔗 Related Internships</h3><ul><li><a href="heico-corporation.html">HEICO Corporation — Engineering Internship – Aviation Industry</a> (Score: 57)</li><li><a href="hexcel-corporation.html">Hexcel Corporation — Early Career Program - Research Scientist</a> (Score: 56)</li><li><a href="ametek.html">AMETEK — Engineered Materials Interconnects Intern / Manufacturing Engineering Intern</a> (Score: 55)</li><li><a href="exponent.html">Exponent — Engineering &amp; Scientific Consulting Internship</a> (Score: 53)</li><li><a href="element-materials-technology.html">Element Materials Technology — Testing Intern / Lab Intern</a> (Score: 53)</li></ul></div>
+</div>
+</body></html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tronox — Internship Program 2026/2027</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --bg: #0a0e1a; --card: #111827; --border: #1e293b; --text: #e2e8f0; --dim: #64748b; --accent: #38bdf8; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+.back { display: inline-block; padding: 1rem 2rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
+.back:hover { background: rgba(56,189,248,0.05); }
+.detail-header { padding: 2rem; border-bottom: 1px solid var(--border); }
+.detail-header h1 { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+.detail-header .role { font-size: 1rem; color: var(--dim); margin-bottom: 1rem; }
+.detail-meta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.detail-meta .tag { padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+.detail-scores { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+.detail-score-ring { width: 64px; height: 64px; border-radius: 50%; border: 4px solid; display: flex; align-items: center; justify-content: center; }
+.detail-score-ring .num { font-size: 1.2rem; font-weight: 800; }
+.detail-score-bars { display: grid; gap: 0.4rem; min-width: 200px; }
+.detail-score-bars .bar { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.detail-score-bars .bar-fill { height: 8px; border-radius: 4px; }
+.detail-score-bars .bar-val { color: var(--dim); }
+.detail-body { max-width: 800px; margin: 0 auto; padding: 2rem; }
+.section { margin-bottom: 2rem; }
+.section h3 { font-size: 1.1rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+.section p, .section ul { font-size: 0.9rem; line-height: 1.7; color: #cbd5e1; }
+.section ul { padding-left: 1.5rem; }
+.section li { margin-bottom: 0.4rem; }
+.section a { color: var(--accent); text-decoration: none; }
+.section a:hover { text-decoration: underline; }
+.apply-btn { display: inline-block; background: #2563eb; color: #fff; text-decoration: none; padding: 0.8rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; margin-top: 1rem; transition: background 0.15s; }
+.apply-btn:hover { background: #1d4ed8; }
+.detail-deadline { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #fbbf24; }
+.detail-notes { background: rgba(100,116,139,0.1); border: 1px solid rgba(100,116,139,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.85rem; color: #94a3b8; font-style: italic; }
+.detail-gpa { background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #38bdf8; }
+</style>
+</head>
+<body>
+<a href="../index.html" class="back">← Back to all internships</a>
+<div class="detail-header">
+  <h1>Tronox</h1>
+  <div class="role">Internship Program 2026/2027</div>
+  <div class="detail-meta">
+    <span class="tag" style="background:#a855f7">Composites / Advanced Materials</span>
+    <span class="tag" style="background:#64748b22;color:#64748b">Application Type Unknown</span>
+    <span class="tag" style="background:rgba(16,185,129,0.15);color:#34d399">#200</span>
+  </div>
+  <div class="detail-scores">
+    <div class="detail-score-ring" style="border-color:#64748b"><span class="num">39</span></div>
+    <div class="detail-score-bars">
+      <div class="bar">⭐ Prestige: <div class="bar-fill" style="width:40%;background:#a78bfa"></div><span class="bar-val">10/25</span></div>
+      <div class="bar">💰 Pay: <div class="bar-fill" style="width:48%;background:#34d399"></div><span class="bar-val">12/25</span></div>
+      <div class="bar">📍 Location: <div class="bar-fill" style="width:20%;background:#38bdf8"></div><span class="bar-val">5/25</span></div>
+      <div class="bar">🔬 MSE Fit: <div class="bar-fill" style="width:48%;background:#fbbf24"></div><span class="bar-val">12/25</span></div>
+    </div>
+    <div style="text-align:center"><div style="font-size:1.5rem;font-weight:800;color:#64748b">43%</div><div style="font-size:0.75rem;color:var(--dim)">acceptance</div></div>
+  </div>
+</div>
+<div class="detail-body">
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+    <span>📍 Stamford, CT</span>
+    <span>💰 Paid</span>
+  </div>
+  
+  <div class="detail-notes">💡 Job portal loads. Tronox is a global TiO2 and specialty chemicals company. Mining and manufacturing focus. Stamford, CT headquarters. Check for US intern openings.</div>
+  
+  <a href="https://jobs.tronox.com/" target="_blank" rel="noopener" class="apply-btn">Apply Now →</a>
+  <div class="section"><h3>📝 Description</h3><p>Titanium dioxide and specialty chemicals. Mining, manufacturing, sustainability.</p></div>
+  <div class="section"><h3>✅ Eligibility</h3><p>Students</p></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="section"><h3>🔗 Related Internships</h3><ul><li><a href="heico.html">HEICO — Engineering Internship</a> (Score: 63)</li><li><a href="corning.html">Corning — Raw Material Engineering Intern - Summer 2027</a> (Score: 56)</li><li><a href="saint-gobain.html">Saint-Gobain — Manufacturing &amp; Engineering Internship</a> (Score: 53)</li><li><a href="hermeus.html">Hermeus — Supply Chain Intern - Spring/Summer 2027</a> (Score: 52)</li><li><a href="iacmi.html">IACMI — Internship Program</a> (Score: 51)</li></ul></div>
+</div>
+</body></html>

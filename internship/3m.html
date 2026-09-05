@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3M — Student Internship Program</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --bg: #0a0e1a; --card: #111827; --border: #1e293b; --text: #e2e8f0; --dim: #64748b; --accent: #38bdf8; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+.back { display: inline-block; padding: 1rem 2rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
+.back:hover { background: rgba(56,189,248,0.05); }
+.detail-header { padding: 2rem; border-bottom: 1px solid var(--border); }
+.detail-header h1 { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+.detail-header .role { font-size: 1rem; color: var(--dim); margin-bottom: 1rem; }
+.detail-meta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.detail-meta .tag { padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+.detail-scores { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+.detail-score-ring { width: 64px; height: 64px; border-radius: 50%; border: 4px solid; display: flex; align-items: center; justify-content: center; }
+.detail-score-ring .num { font-size: 1.2rem; font-weight: 800; }
+.detail-score-bars { display: grid; gap: 0.4rem; min-width: 200px; }
+.detail-score-bars .bar { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.detail-score-bars .bar-fill { height: 8px; border-radius: 4px; }
+.detail-score-bars .bar-val { color: var(--dim); }
+.detail-body { max-width: 800px; margin: 0 auto; padding: 2rem; }
+.section { margin-bottom: 2rem; }
+.section h3 { font-size: 1.1rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+.section p, .section ul { font-size: 0.9rem; line-height: 1.7; color: #cbd5e1; }
+.section ul { padding-left: 1.5rem; }
+.section li { margin-bottom: 0.4rem; }
+.section a { color: var(--accent); text-decoration: none; }
+.section a:hover { text-decoration: underline; }
+.apply-btn { display: inline-block; background: #2563eb; color: #fff; text-decoration: none; padding: 0.8rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; margin-top: 1rem; transition: background 0.15s; }
+.apply-btn:hover { background: #1d4ed8; }
+.detail-deadline { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #fbbf24; }
+.detail-notes { background: rgba(100,116,139,0.1); border: 1px solid rgba(100,116,139,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.85rem; color: #94a3b8; font-style: italic; }
+.detail-gpa { background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #38bdf8; }
+</style>
+</head>
+<body>
+<a href="../index.html" class="back">← Back to all internships</a>
+<div class="detail-header">
+  <h1>3M</h1>
+  <div class="role">Student Internship Program</div>
+  <div class="detail-meta">
+    <span class="tag" style="background:#3b82f6">Chemicals / Energy / Labs</span>
+    <span class="tag" style="background:#ef444422;color:#ef4444">Essay + Interview</span>
+    <span class="tag" style="background:rgba(16,185,129,0.15);color:#34d399">#30</span>
+  </div>
+  <div class="detail-scores">
+    <div class="detail-score-ring" style="border-color:#3b82f6"><span class="num">58</span></div>
+    <div class="detail-score-bars">
+      <div class="bar">⭐ Prestige: <div class="bar-fill" style="width:88%;background:#a78bfa"></div><span class="bar-val">22/25</span></div>
+      <div class="bar">💰 Pay: <div class="bar-fill" style="width:48%;background:#34d399"></div><span class="bar-val">12/25</span></div>
+      <div class="bar">📍 Location: <div class="bar-fill" style="width:20%;background:#38bdf8"></div><span class="bar-val">5/25</span></div>
+      <div class="bar">🔬 MSE Fit: <div class="bar-fill" style="width:76%;background:#fbbf24"></div><span class="bar-val">19/25</span></div>
+    </div>
+    <div style="text-align:center"><div style="font-size:1.5rem;font-weight:800;color:#3b82f6">40%</div><div style="font-size:0.75rem;color:var(--dim)">acceptance</div></div>
+  </div>
+</div>
+<div class="detail-body">
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+    <span>📍 St. Paul, MN</span>
+    <span>💰 Paid</span>
+  </div>
+  
+  <div class="detail-notes">💡 Original URL returns 404. Correct careers page is https://www.3m.com/3M/en_US/careers-us/ (no dedicated student subpage). UK page shows student programs exist. Search &#x27;Student Program&#x27; or &#x27;Intern&#x27; on 3M job board. R&amp;D intern postings exist for Austin, TX and St. Paul, MN.</div>
+  <div class="detail-gpa">📋 GPA Requirement: Not specified</div>
+  <a href="https://www.3m.com/3M/en_US/careers/us/careers-home/" target="_blank" rel="noopener" class="apply-btn">Apply Now →</a>
+  <div class="section"><h3>📝 Description</h3><p>Internships in R&amp;D, engineering, manufacturing, and business functions. Hands-on experience with materials science and innovation.</p></div>
+  <div class="section"><h3>✅ Eligibility</h3><p>Currently enrolled students, STEM majors preferred</p></div>
+  <div class="section"><h3>📋 Application Process</h3><p>1) Apply online via 3M careers portal (3m.com/careers-us) 2) Upload resume for review 3) Recruiter phone screen (20-30 min) 4) Hiring manager video interview (45-60 min, behavioral + technical) 5) Possibly a second-round panel interview or site visit 6) Background check and drug test 7) Offer. 3M&#x27;s application system may have timeout issues — be patient and try again if needed. Process takes 4-8 weeks. Rolling applications — apply early. Check for specific &#x27;Students &amp; Interns&#x27; postings.</p></div>
+  <div class="section"><h3>🚀 Best Way to Apply</h3><p>Apply through 3M careers portal (3m.com/careers-us). Search for &#x27;intern&#x27; positions in St. Paul MN. 3M recruits at specific universities — check if UF is a target school. Also check LinkedIn for specific postings. Join 3M Talent Community for job alerts. Apply to multiple positions to increase chances. St. Paul MN is the headquarters — most internship opportunities are there. The website may have timeout issues — try multiple times or contact 3M recruiting directly.</p></div>
+  <div class="section"><h3>📄 Resume Tips</h3><p>3M is a diversified technology company — they make everything from adhesives to medical devices to abrasives. Emphasize any experience with materials science, polymers, coatings, or adhesives. Highlight Materials Science &amp; Engineering coursework. Mention any experience with characterization techniques (NMR, FTIR) — 3M values analytical skills. Include any coursework in polymers, coatings, adhesives, or surface science. Emphasize GPA (3.96 is very competitive). Mention any experience with CAD (Creo, Solidworks) or design. One-page, clean format. 3M values innovation — mention any creative projects or problem-solving.</p></div>
+  <div class="section"><h3>🎯 Maximize Your Chances</h3><p>3M is one of the world&#x27;s most innovative companies — they hold thousands of patents and make diverse products across multiple industries. Angelina&#x27;s Materials Science &amp; Engineering background is ideal for 3M. Her polymer research experience (Sumerlin group) is directly relevant — 3M&#x27;s core business includes adhesives, coatings, and advanced polymers. Her NMR and FTIR skills are valuable for materials characterization. Mention any coursework in polymers, coatings, adhesives, or surface science. 3M values innovation and creativity — mention any innovative projects. The St. Paul MN location is the headquarters — most opportunities are there. Apply early and attend 3M recruiting events at UF.</p></div>
+  <div class="section"><h3>🎤 Interview Format</h3><p>Recruiter phone screen → Video interview with hiring manager (behavioral + technical) → Possibly panel interview or site visit. Expect questions about materials science, polymers, and innovation. 3M values creativity and problem-solving. Technical questions may cover polymer properties, materials selection, or analytical techniques. Prepare STAR-format behavioral examples. Questions may include: &#x27;Describe an innovative solution you developed&#x27; or &#x27;How would you apply materials science to a 3M product?&#x27; 3M values &#x27;imagine what&#x27;s possible&#x27; — be creative in your answers.</p></div>
+  <div class="section"><h3>🏆 Success Stories</h3><p>3M&#x27;s internship program is well-structured and prestigious — 3M is consistently ranked as a top employer. Many interns convert to full-time positions. The company provides mentorship, networking events, and professional development. 3M&#x27;s &#x27;15% culture&#x27; (employees spend 15% of time on personal projects) fosters innovation. The St. Paul location has a strong intern community. Materials Science &amp; Engineering graduates are well-represented at 3M. The company&#x27;s diversity of products offers diverse project opportunities. 3M has a strong history of promoting from within.</p></div>
+  <div class="section"><h3>📝 Supplemental Questions</h3><p>No supplemental essays required. Standard online application with resume upload. 3M may ask about specific skills, coursework, and location preference. Some positions may ask about visa status. The application process is straightforward but the website may have timeout issues.</p></div>
+  <div class="section"><h3>🔗 Related Internships</h3><ul><li><a href="doe-suli-all-labs.html">DOE SULI (All Labs) — Science Undergraduate Laboratory Internships</a> (Score: 66)</li><li><a href="pacific-northwest-national-laboratory-pnnl.html">Pacific Northwest National Laboratory (PNNL) — SULI Internships</a> (Score: 64)</li><li><a href="brookhaven-national-laboratory.html">Brookhaven National Laboratory — SULI - Science Undergraduate Laboratory Internship</a> (Score: 61)</li><li><a href="savannah-river-national-laboratory-srnl.html">Savannah River National Laboratory (SRNL) — ASPIRE Internship Program</a> (Score: 61)</li><li><a href="los-alamos-national-laboratory.html">Los Alamos National Laboratory — Undergraduate Engineering Student Internship</a> (Score: 60)</li></ul></div>
+</div>
+</body></html>

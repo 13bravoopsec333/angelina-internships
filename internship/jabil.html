@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jabil — Summer Internship Program</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --bg: #0a0e1a; --card: #111827; --border: #1e293b; --text: #e2e8f0; --dim: #64748b; --accent: #38bdf8; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+.back { display: inline-block; padding: 1rem 2rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
+.back:hover { background: rgba(56,189,248,0.05); }
+.detail-header { padding: 2rem; border-bottom: 1px solid var(--border); }
+.detail-header h1 { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+.detail-header .role { font-size: 1rem; color: var(--dim); margin-bottom: 1rem; }
+.detail-meta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.detail-meta .tag { padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+.detail-scores { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+.detail-score-ring { width: 64px; height: 64px; border-radius: 50%; border: 4px solid; display: flex; align-items: center; justify-content: center; }
+.detail-score-ring .num { font-size: 1.2rem; font-weight: 800; }
+.detail-score-bars { display: grid; gap: 0.4rem; min-width: 200px; }
+.detail-score-bars .bar { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.detail-score-bars .bar-fill { height: 8px; border-radius: 4px; }
+.detail-score-bars .bar-val { color: var(--dim); }
+.detail-body { max-width: 800px; margin: 0 auto; padding: 2rem; }
+.section { margin-bottom: 2rem; }
+.section h3 { font-size: 1.1rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+.section p, .section ul { font-size: 0.9rem; line-height: 1.7; color: #cbd5e1; }
+.section ul { padding-left: 1.5rem; }
+.section li { margin-bottom: 0.4rem; }
+.section a { color: var(--accent); text-decoration: none; }
+.section a:hover { text-decoration: underline; }
+.apply-btn { display: inline-block; background: #2563eb; color: #fff; text-decoration: none; padding: 0.8rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; margin-top: 1rem; transition: background 0.15s; }
+.apply-btn:hover { background: #1d4ed8; }
+.detail-deadline { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #fbbf24; }
+.detail-notes { background: rgba(100,116,139,0.1); border: 1px solid rgba(100,116,139,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.85rem; color: #94a3b8; font-style: italic; }
+.detail-gpa { background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #38bdf8; }
+</style>
+</head>
+<body>
+<a href="../index.html" class="back">← Back to all internships</a>
+<div class="detail-header">
+  <h1>Jabil</h1>
+  <div class="role">Summer Internship Program</div>
+  <div class="detail-meta">
+    <span class="tag" style="background:#10b981">Medical Devices / Biotech</span>
+    <span class="tag" style="background:#ef444422;color:#ef4444">Essay + Interview</span>
+    <span class="tag" style="background:rgba(16,185,129,0.15);color:#34d399">#10</span>
+  </div>
+  <div class="detail-scores">
+    <div class="detail-score-ring" style="border-color:#3b82f6"><span class="num">65</span></div>
+    <div class="detail-score-bars">
+      <div class="bar">⭐ Prestige: <div class="bar-fill" style="width:68%;background:#a78bfa"></div><span class="bar-val">17/25</span></div>
+      <div class="bar">💰 Pay: <div class="bar-fill" style="width:48%;background:#34d399"></div><span class="bar-val">12/25</span></div>
+      <div class="bar">📍 Location: <div class="bar-fill" style="width:88%;background:#38bdf8"></div><span class="bar-val">22/25</span></div>
+      <div class="bar">🔬 MSE Fit: <div class="bar-fill" style="width:56%;background:#fbbf24"></div><span class="bar-val">14/25</span></div>
+    </div>
+    <div style="text-align:center"><div style="font-size:1.5rem;font-weight:800;color:#3b82f6">64%</div><div style="font-size:0.75rem;color:var(--dim)">acceptance</div></div>
+  </div>
+</div>
+<div class="detail-body">
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+    <span>📍 St. Petersburg, FL</span>
+    <span>💰 Paid</span>
+  </div>
+  
+  <div class="detail-notes">💡 Rising senior preferred but not required. 12-week US summer cohort. Multiple engineering disciplines. St. Petersburg FL is a big city (260k+). Strong fit for MSE candidate.</div>
+  <div class="detail-gpa">📋 GPA Requirement: 3.0 minimum</div>
+  <a href="https://careers.jabil.com/students-internship-apprenticeship-programs.html" target="_blank" rel="noopener" class="apply-btn">Apply Now →</a>
+  <div class="section"><h3>📝 Description</h3><p>12-week summer program covering Engineering (Mechanical, Industrial, Systems), Manufacturing &amp; Operations, Quality, Supply Chain. Top 100 internship per WayUp 2025. Summer 2026 cohort runs May 18–Aug 7.</p></div>
+  <div class="section"><h3>✅ Eligibility</h3><p>Enrolled in accredited university, strong academics, rising senior preferred, min 3.0 GPA</p></div>
+  <div class="section"><h3>📋 Application Process</h3><p>NO fixed application window. Jabil posts co-op and intern roles site by site, function by function, all year round on careers.jabil.com. Each requisition has its own short window (some close within ~3 weeks of going live). The formal 12-week summer cohort has individual role postings that typically appear a few months ahead of the June start. Process: (1) Apply directly to a posted requisition at careers.jabil.com — matched to function and preferred site. General applications without a specific posting tend not to move. (2) Resume and HR screen: recruiter confirms enrollment status, location, availability. (3) One or two interviews mixing behavioral questions with light technical questions for engineering roles. (4) Decision. Glassdoor intern rating 4.1/5 with 87% recommending. Interview described as &#x27;relaxed and casual, sometimes wrapping in about 30 minutes.&#x27; No standardized company-wide assessment — process varies by site and function.</p></div>
+  <div class="section"><h3>🚀 Best Way to Apply</h3><p>careers.jabil.com Students &amp; Internships section. Join the Career Network for opening alerts. Monitor regularly — there is NO single application date. Apply the WEEK a role in your function and location goes live because it may not stay open long. For St. Petersburg FL specifically, check for engineering, manufacturing, and quality roles at the HQ location. Apply broadly across functions and sites that fit your background rather than waiting for one dream posting.</p></div>
+  <div class="section"><h3>📄 Resume Tips</h3><p>Highlight: Materials Engineering major, 3.96 GPA, Creo/Solidworks (CAD tools used in manufacturing), GD&amp;T from HNI (directly relevant to manufacturing engineering), PPAP (quality systems — Jabil uses similar frameworks), Ansys Granta (materials selection for electronics manufacturing). Keywords: Lean/Six Sigma, process improvement, quality engineering, manufacturing processes, cross-functional collaboration, data analysis. Jabil&#x27;s JDs consistently mention: cross-functional communication (6/7 postings), data analysis (4/7), process improvement (3/7). Frame your HNI experience in Jabil&#x27;s vocabulary — lean manufacturing, quality systems, production-floor process improvement. Mention any experience with electronics manufacturing or supply chain.</p></div>
+  <div class="section"><h3>🎯 Maximize Your Chances</h3><p>Apply broadly across functions and sites — Jabil hires per requisition, not into one national class. Move fast: postings can close within ~3 weeks of going live, so treat every live listing as time-sensitive. Build proof in Jabil&#x27;s vocabulary: Lean/Six Sigma process work, data accuracy, cross-functional collaboration. A finished process-improvement or data project answers their exact requirements with an artifact instead of a claim. The St. Petersburg FL HQ location is a major hub — check for engineering, quality, and manufacturing roles there. The relaxed interview culture means being genuine and showing practical skills matters more than polished behavioral scripts. 12-week summer cohort includes mentor pairing and leadership access. Compensation: $16-$32/hr. No published return-offer rate but postings cite &#x27;potential pathways to future internship, co-op, or full-time career opportunities.&#x27;</p></div>
+  <div class="section"><h3>🎤 Interview Format</h3><p>Informal and concise. Resume/HR screen → 1-2 interviews mixing behavioral + light technical questions. Candidates describe it as &#x27;relaxed and casual, sometimes wrapping in about 30 minutes.&#x27; No standardized assessment. No HireVue or coding tests. Process varies by site and function since each posting is filled independently. Glassdoor difficulty is moderate.</p></div>
+  <div class="section"><h3>🏆 Success Stories</h3><p>Glassdoor intern rating 4.1/5 with 87% recommending. Reddit: &#x27;Starting my co-op at a Jabil manufacturing plant this week, and it&#x27;s hands-on from day one: shop-floor time mixed in with the usual first-week orientation.&#x27; Another: &#x27;The Jabil software engineering intern posting I wanted to share here was already marked closed by the time I got to it. These listings really don&#x27;t stay open long.&#x27; Another: &#x27;I&#x27;ve got a CS degree and really want to work for Jabil, but I can&#x27;t seem to get my foot in the door even after applying to multiple roles.&#x27; The key takeaway: speed matters more than perfection at Jabil. Apply fast, apply broadly.</p></div>
+  <div class="section"><h3>📝 Supplemental Questions</h3><p>No supplemental essays. No cover letter required. The application is resume-only with standard screening questions (enrollment status, location preference, availability). Each posting may have its own specific screening questions.</p></div>
+  <div class="section"><h3>🔗 Related Internships</h3><ul><li><a href="medtronic.html">Medtronic — Engineering Intern - Summer 2027</a> (Score: 83)</li><li><a href="stryker.html">Stryker — Summer 2027 Internship - Engineering</a> (Score: 68)</li><li><a href="boston-scientific.html">Boston Scientific — Student Internships, Co-ops &amp; Rotational Programs</a> (Score: 59)</li><li><a href="procept-biorobotics.html">PROCEPT BioRobotics — Engineering Intern</a> (Score: 49)</li><li><a href="penumbra.html">Penumbra — R&amp;D Engineer Intern</a> (Score: 47)</li></ul></div>
+</div>
+</body></html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qorvo — Qorvo Internship Program</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --bg: #0a0e1a; --card: #111827; --border: #1e293b; --text: #e2e8f0; --dim: #64748b; --accent: #38bdf8; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+.back { display: inline-block; padding: 1rem 2rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
+.back:hover { background: rgba(56,189,248,0.05); }
+.detail-header { padding: 2rem; border-bottom: 1px solid var(--border); }
+.detail-header h1 { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+.detail-header .role { font-size: 1rem; color: var(--dim); margin-bottom: 1rem; }
+.detail-meta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.detail-meta .tag { padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+.detail-scores { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+.detail-score-ring { width: 64px; height: 64px; border-radius: 50%; border: 4px solid; display: flex; align-items: center; justify-content: center; }
+.detail-score-ring .num { font-size: 1.2rem; font-weight: 800; }
+.detail-score-bars { display: grid; gap: 0.4rem; min-width: 200px; }
+.detail-score-bars .bar { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.detail-score-bars .bar-fill { height: 8px; border-radius: 4px; }
+.detail-score-bars .bar-val { color: var(--dim); }
+.detail-body { max-width: 800px; margin: 0 auto; padding: 2rem; }
+.section { margin-bottom: 2rem; }
+.section h3 { font-size: 1.1rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+.section p, .section ul { font-size: 0.9rem; line-height: 1.7; color: #cbd5e1; }
+.section ul { padding-left: 1.5rem; }
+.section li { margin-bottom: 0.4rem; }
+.section a { color: var(--accent); text-decoration: none; }
+.section a:hover { text-decoration: underline; }
+.apply-btn { display: inline-block; background: #2563eb; color: #fff; text-decoration: none; padding: 0.8rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; margin-top: 1rem; transition: background 0.15s; }
+.apply-btn:hover { background: #1d4ed8; }
+.detail-deadline { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #fbbf24; }
+.detail-notes { background: rgba(100,116,139,0.1); border: 1px solid rgba(100,116,139,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.85rem; color: #94a3b8; font-style: italic; }
+.detail-gpa { background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; color: #38bdf8; }
+</style>
+</head>
+<body>
+<a href="../index.html" class="back">← Back to all internships</a>
+<div class="detail-header">
+  <h1>Qorvo</h1>
+  <div class="role">Qorvo Internship Program</div>
+  <div class="detail-meta">
+    <span class="tag" style="background:#06b6d4">Semiconductor / Electronics</span>
+    <span class="tag" style="background:#ef444422;color:#ef4444">Essay + Interview</span>
+    <span class="tag" style="background:rgba(16,185,129,0.15);color:#34d399">#40</span>
+  </div>
+  <div class="detail-scores">
+    <div class="detail-score-ring" style="border-color:#3b82f6"><span class="num">57</span></div>
+    <div class="detail-score-bars">
+      <div class="bar">⭐ Prestige: <div class="bar-fill" style="width:68%;background:#a78bfa"></div><span class="bar-val">17/25</span></div>
+      <div class="bar">💰 Pay: <div class="bar-fill" style="width:100%;background:#34d399"></div><span class="bar-val">25/25</span></div>
+      <div class="bar">📍 Location: <div class="bar-fill" style="width:20%;background:#38bdf8"></div><span class="bar-val">5/25</span></div>
+      <div class="bar">🔬 MSE Fit: <div class="bar-fill" style="width:40%;background:#fbbf24"></div><span class="bar-val">10/25</span></div>
+    </div>
+    <div style="text-align:center"><div style="font-size:1.5rem;font-weight:800;color:#3b82f6">54%</div><div style="font-size:0.75rem;color:var(--dim)">acceptance</div></div>
+  </div>
+</div>
+<div class="detail-body">
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+    <span>📍 Greensboro NC, Apopka FL, Richardson TX, Chelmsford MA</span>
+    <span>💰 $31-$42/hr</span>
+  </div>
+  
+  <div class="detail-notes">💡 URL works. Has Apopka FL location (near Orlando, ~30 min from Angelina&#x27;s home area). Strong match for location preference.</div>
+  
+  <a href="https://careers.qorvo.com/go/Internships-%26-Recent-College-Grads/8587500/" target="_blank" rel="noopener" class="apply-btn">Apply Now →</a>
+  <div class="section"><h3>📝 Description</h3><p>RF and wireless semiconductor. 5G, smartphones, IoT. Packaging engineering, product engineering, RF design roles.</p></div>
+  <div class="section"><h3>✅ Eligibility</h3><p>Currently enrolled Bachelor&#x27;s/Master&#x27;s/PhD students</p></div>
+  <div class="section"><h3>📋 Application Process</h3><p>Apply via careers.qorvo.com/go/Internships-&amp;-Recent-College-Grads/. Upload resume and complete application. Phone screening → technical and behavioral interviews (multiple rounds). Intern hiring takes average 90 days (slowest among Qorvo roles). Team leaders often conduct their own recruitment — you may speak directly to the person you&#x27;d work for.</p></div>
+  <div class="section"><h3>🚀 Best Way to Apply</h3><p>Apply through Qorvo careers portal. Target Product Engineering, Test Engineering, or Materials-related internships. Locations: Richardson TX (headquarters), Greensboro NC, Apopka FL, Denver CO. Angelina&#x27;s Florida location makes Apopka roles convenient. Highlight semiconductor materials knowledge, analytical instrumentation (NMR, FTIR), and CAD skills. Qorvo is an RF semiconductor company — materials science is critical for their products.</p></div>
+  <div class="section"><h3>📄 Resume Tips</h3><p>Qorvo values RF coursework and semiconductor knowledge. If Angelina has any electronics or semiconductor materials coursework, emphasize it. Highlight NMR and FTIR — directly relevant to semiconductor characterization. Mention JMP for statistical process control. Solidworks/Creo for packaging design. GPA 3.96 is excellent. Qorvo&#x27;s university relations page emphasizes hands-on work and applying RF coursework — if you have any RF-related projects, feature them prominently.</p></div>
+  <div class="section"><h3>🎯 Maximize Your Chances</h3><p>Qorvo is a major RF semiconductor company (5G, IoT, defense). The 90-day average hiring time means patience is required. Team leaders often recruit directly — reaching out to specific teams via LinkedIn can help. Apopka, FL location is ideal for UF students. Qorvo values ownership and varied daily tasks — emphasize your ability to handle diverse projects. The company&#x27;s growth in 5G and defense creates strong internship demand.</p></div>
+  <div class="section"><h3>🎤 Interview Format</h3><p>Phone screening followed by technical and behavioral interviews. Often informal — team leader conducts interview directly. Questions focus on coursework, relevant projects, and technical knowledge. May include questions about RF fundamentals for applicable roles. Behavioral questions about teamwork and problem-solving. Conversational tone.</p></div>
+  <div class="section"><h3>🏆 Success Stories</h3><p>Glassdoor: 161 interview questions, 144 reviews. Intern interview reviews: &#x27;Very informal and short phone call asking about experience and coursework.&#x27; 100% positive interview experience rating from internship applicants. Low difficulty rating (1/5). Average 90-day hiring process for interns. Qorvo intern testimonials mention &#x27;hands-on work&#x27; and &#x27;level of ownership over products.&#x27;</p></div>
+  <div class="section"><h3>📝 Supplemental Questions</h3><p>No supplemental questions reported. Resume-based application with basic information. Some roles may require additional technical questions during interview.</p></div>
+  <div class="section"><h3>🔗 Related Internships</h3><ul><li><a href="texas-instruments.html">Texas Instruments — TI Internship &amp; Co-op Program</a> (Score: 69)</li><li><a href="intel.html">Intel — Intel Internship Program</a> (Score: 67)</li><li><a href="applied-materials.html">Applied Materials — Applied Materials Internship Program</a> (Score: 63)</li><li><a href="lam-research.html">Lam Research — Lam Research University Programs</a> (Score: 60)</li><li><a href="tower-semiconductor.html">Tower Semiconductor — Tower Semiconductor Internship</a> (Score: 60)</li></ul></div>
+</div>
+</body></html>
